@@ -15,3 +15,6 @@ CREATE TABLE [Order]
 		FOREIGN KEY (product_id)
 		REFERENCES [Product] (product_id) 
 );
+
+ALTER TABLE [dbo].[Order]
+	ADD quentity INT;
